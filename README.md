@@ -22,9 +22,9 @@ Nexus Retail is a smart and integrated retail management solution for automating
 - **Database**: MongoDB
 - **Authentication**: Firebase Authentication (Email/Password and Phone OTP)
 - **Deployment**:
-    - Frontend: Vercel
-    - Backend: Render/Railway
-    - Authentication: Firebase
+  - Frontend: Vercel
+  - Backend: Render/Railway
+  - Authentication: Firebase
 
 ## 🏃 How to Run Locally
 
@@ -38,17 +38,20 @@ Nexus Retail is a smart and integrated retail management solution for automating
 ### Backend Setup
 
 1.  **Clone the repository:**
+
     ```bash
     git clone [https://github.com/your-username/nexus-retail.git](https://github.com/your-username/nexus-retail.git)
     cd nexus-retail/backend
     ```
 
 2.  **Install dependencies:**
+
     ```bash
     npm install
     ```
 
 3.  **Create a `.env` file in the `backend` directory and add the following:**
+
     ```
     PORT=5000
     MONGO_URI=your_mongodb_connection_string
@@ -68,16 +71,19 @@ Nexus Retail is a smart and integrated retail management solution for automating
 ### Frontend Setup
 
 1.  **Navigate to the `frontend` directory:**
+
     ```bash
     cd ../frontend
     ```
 
 2.  **Install dependencies:**
+
     ```bash
     npm install
     ```
 
 3.  **Create a `.env` file in the `frontend` directory and add the following:**
+
     ```
     REACT_APP_FIREBASE_API_KEY=your_firebase_api_key
     REACT_APP_FIREBASE_AUTH_DOMAIN=your_firebase_auth_domain
@@ -94,18 +100,18 @@ Nexus Retail is a smart and integrated retail management solution for automating
 
 ## 👥 Team Roles
 
--   **Om Sharma**: Backend, Inventory Module
--   **Shivansh Pratap Singh**: CRM, Billing Module, DB Integration
--   **Tilak Saini**: Frontend, UI/UX
--   **Harsh Mishra**: Testing, Documentation, Sales Report
+- **Om Sharma**: Backend, Inventory Module
+- **Shivansh Pratap Singh**: CRM, Billing Module, DB Integration
+- **Tilak Saini**: Frontend, UI/UX
+- **Harsh Mishra**: Testing, Documentation, Sales Report
 
 ## 📦 GitHub Collaboration Setup
 
--   **Branching Strategy**:
-    -   `main`: Production-ready code.
-    -   `develop`: Integration branch for features.
-    -   `feature/<feature-name>`: For developing new features (e.g., `feature/billing`).
-    -   `bugfix/<bug-name>`: For fixing bugs (e.g., `bugfix/login-error`).
--   **Pull Requests**: All changes to `develop` and `main` must be made through pull requests.
--   **Code Reviews**: At least one team member must review and approve a pull request before it can be merged.
--   **GitHub Projects/Issues**: Use GitHub Issues to track tasks and bugs. GitHub Projects can be used to manage the project timeline and progress.
+- **Branching Strategy**:
+  - `main`: Production-ready code.
+  - `develop`: Integration branch for features.
+  - `feature/<feature-name>`: For developing new features (e.g., `feature/billing`).
+  - `bugfix/<bug-name>`: For fixing bugs (e.g., `bugfix/login-error`).
+- **Pull Requests**: All changes to `develop` and `main` must be made through pull requests.
+- **Code Reviews**: At least one team member must review and approve a pull request before it can be merged.
+- **GitHub Projects/Issues**: Use GitHub Issues to track tasks and bugs. GitHub Projects can be used to manage the project timeline and progress.
