@@ -40,8 +40,8 @@ Nexus Retail is a smart and integrated retail management solution for automating
 1.  **Clone the repository:**
 
     ```bash
-    git clone [https://github.com/your-username/nexus-retail.git](https://github.com/your-username/nexus-retail.git)
-    cd nexus-retail/backend
+    git clone [https://github.com/Omsh888/NexusRetail-Smart-Retail-Management-Software.git](https://github.com/Omsh888/NexusRetail-Smart-Retail-Management-Software.git)
+    cd NexusRetail-Smart-Retail-Management-Software/backend
     ```
 
 2.  **Install dependencies:**
