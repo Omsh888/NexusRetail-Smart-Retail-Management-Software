@@ -1,7 +1,7 @@
 {
   "name": "nexusretail-smart-retail-management-software",
   "version": "1.0.0",
-  "description": "Nexus Retail is a smart and integrated retail management solution for automating and simplifying the day-to-day operations of retail stores. This project is developed as a final year B.Tech project.",
+  "description": "Nexus Retail is a smart and integrated retail management solution for automating and simplifying the day-to-day operations of retail stores.",
   "main": "index.js",
   "directories": {
     "doc": "docs"
@@ -11,7 +11,7 @@
   },
   "keywords": [],
   "author": "",
-  "license": "ISC",
+  "license": "MIT",
   "devDependencies": {
     "concurrently": "^9.2.0"
   }

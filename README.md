@@ -1,6 +1,6 @@
 # Nexus Retail – Smart Retail Management Software
 
-Nexus Retail is a smart and integrated retail management solution for automating and simplifying the day-to-day operations of retail stores. This project is developed as a final year B.Tech project.
+Nexus Retail is a comprehensive, cloud-based retail management solution designed to automate and streamline the day-to-day operations of retail businesses. It integrates key functionalities like GST-compliant billing, real-time inventory tracking, customer relationship management (CRM), and sales analytics into a single, user-friendly platform.
 
 ## 🚀 Project Features
 
@@ -17,22 +17,23 @@ Nexus Retail is a smart and integrated retail management solution for automating
 
 ## 🛠️ Tech Stack
 
-- **Frontend**: React.js, Tailwind CSS
-- **Backend**: Node.js, Express.js
-- **Database**: MongoDB
-- **Authentication**: Firebase Authentication (Email/Password and Phone OTP)
+- **Frontend:** React.js, Context API, Axios
+- **Backend:** Node.js, Express.js
+- **Database:** MongoDB (with Mongoose)
+- **Authentication:** Firebase Authentication & JWT
 - **Deployment**:
   - Frontend: Vercel
-  - Backend: Render/Railway
+  - Backend: Render
+  - Database: MongoDB Atlas
   - Authentication: Firebase
 
 ## 🏃 How to Run Locally
 
 ### Prerequisites
 
-- Node.js (v14 or higher)
+- Node.js (v18 or higher)
 - npm or yarn
-- MongoDB installed and running
+- MongoDB account (for connection URI)
 - Firebase project set up
 
 ### Backend Setup
